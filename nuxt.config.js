@@ -39,6 +39,11 @@ export default {
   },
 
   /*
+   ** Source path
+   */
+  srcDir: 'src/',
+
+  /*
    ** Global CSS
    */
   css: [],
