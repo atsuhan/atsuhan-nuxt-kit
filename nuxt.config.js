@@ -8,8 +8,7 @@ export default {
    */
   head: {
     title: pkg.name,
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -22,13 +21,11 @@ export default {
         content: pkg.description
       }
     ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      }
-    ]
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }]
   },
 
   /*
@@ -37,11 +34,6 @@ export default {
   loading: {
     color: '#fff'
   },
-
-  /*
-   ** Source path
-   */
-  srcDir: 'src/',
 
   /*
    ** Global CSS
@@ -85,5 +77,17 @@ export default {
         });
       }
     }
-  }
+  },
+
+  /*
+   ** Source path
+   */
+  srcDir: 'src/',
+
+  /*
+   ** Source path
+   */
+  generate: {
+    dir: 'public/'
+  },
 };
